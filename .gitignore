@@ -1,0 +1,13 @@
+# Auto generated
+dist/cache
+dist/logs
+dist/server.jar
+
+dist/world*
+dist/.console_history
+
+# User data
+dist/*.json
+
+# Plugins
+
