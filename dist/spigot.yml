@@ -34,8 +34,8 @@ settings:
       max: 2048.0
 commands:
   silent-commandblock-console: false
-  tab-complete: 0
-  send-namespaced: true
+  tab-complete: 2
+  send-namespaced: false
   spam-exclusions:
   - /skill
   replace-commands:
@@ -45,12 +45,12 @@ commands:
   - tellraw
   log: true
 messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+  restart: '&ePoczekaj chwile - serwer jest aktualnie restartowany'
+  whitelist: '&9&lnes. &f- Jeszcze nie wszystko jest gotowe'
+  unknown-command: '&7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.'
+  server-full: '&eJakims cudem serwer jest pelny'
+  outdated-client: '&eZaktualizuj Minecrafta w swoim launcherze do 1.17.1'
+  outdated-server: '&eZmien wersje Minecrafta w swoim launcherze do 1.17.1'
 advancements:
   disable-saving: false
   disabled:

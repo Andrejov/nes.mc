@@ -85,13 +85,15 @@ timings:
   history-length: 3600
   server-name: Unknown Server
 messages:
-  no-permission: '&cI''m sorry, but you do not have permission to perform this command.
-    Please contact the server administrators if you believe that this is in error.'
+  no-permission: '&7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.'
   kick:
     authentication-servers-down: ''
-    connection-throttle: Connection throttled! Please wait before reconnecting.
-    flying-player: Flying is not enabled on this server
-    flying-vehicle: Flying is not enabled on this server
+    connection-throttle: '&fWystapil blad ''&eConnection throttled! Please wait before
+      reconnecting.&f''. Odczekaj chwile zanim znow polaczysz sie z serwerem.'
+    flying-player: '&fWystapil blad ''&eFlying is not enabled on this server&f''.
+      Prawdopodobnie jest to wynik slabego polaczenia z serwerem.'
+    flying-vehicle: '&fWystapil blad ''&eFlying is not enabled on this server&f''.
+      Prawdopodobnie jest to wynik slabego polaczenia z serwerem.'
 world-settings:
   default:
     enable-treasure-maps: true

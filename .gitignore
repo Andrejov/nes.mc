@@ -10,4 +10,15 @@ dist/.console_history
 dist/*.json
 
 # Plugins
-
+/dist/plugins/WorldGuard/cache
+/dist/plugins/WorldEdit/.archive-unpack/9b94df90
+/dist/plugins/WorldEdit/sessions
+/dist/plugins/SkinsRestorer/Players
+/dist/plugins/SkinsRestorer/Skins
+/dist/plugins/ProtocolLib/lastupdate
+/dist/plugins/LuckPerms/libs
+/dist/plugins/AuthMe/authme.log
+/dist/plugins/AuthMe/authme.db
+/dist/plugins/Essentials/userdata
+/dist/plugins/Multiverse-Inventories/players
+/dist/plugins/ServerListPlus/PlayerCache.json

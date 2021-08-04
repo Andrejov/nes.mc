@@ -21,7 +21,8 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: §cSerwer zostal wylaczony, ale prawdopodobnie jest to spowodowane
+    bledem. Zobacz Discorda, aby uzyskac pomoc.
   minimum-api: none
 spawn-limits:
   monsters: 70
