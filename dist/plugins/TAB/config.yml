@@ -16,9 +16,11 @@ header:
   - "&7Admins: &e%staffonline%"
   - ""
 footer:
-  - "&7Ping: %animation:mixer%&e%ping% &7ms"
-  - "&7TPS: %animation:mixer%&e%tps%"
-  - "&7MEM: %animation:mixer%&e%memory-used%&7/&e%memory-max% &7MB"
+  - ""
+  - "%animation:mixer%"
+  - "&7Ping: &e%ping% &7ms"
+  - "&7TPS: &e%tps%"
+  - "&7MEM: &e%memory-used%&7/&e%memory-max% &7MB"
   - ""
   - "&7Discord: &9*link*"
 
@@ -26,31 +28,43 @@ footer:
 yellow-number-in-tablist: "%ping%"
 
 group-sorting-priority-list:
-  - owner
+  - root
   - admin
   - mod
-  - helper
-  - builder
-  - premium
-  - player
+  - sponsor
   - default
 
 Groups:
-#TODO
-  Owner:
-    tabprefix: "&0&l[&a&lOwner&0&l] &a"
-    tagprefix: "&2&lOwner &a"
-  Admin:
-    tabprefix: "&0&l[&4&lAdmin&0&l] &1"
-    tagprefix: "%animation:admin_prefix%"
-  Player:
-    tabprefix: "&0&l[&7&lPlayer&0&l] &3"
-    tagprefix: "&2&lPlayer &3"
-  example_group:
-    header:
-      - "This is an example of per-group header/footer"
-    footer:
-      - "applied to a group"
+  root:
+    tabprefix: "&4&lroot &c"
+    tagprefix: "&4&lR &c"
+  admin:
+    tabprefix: "&c&ladmin &f"
+    tagprefix: "&c&lA &f"
+  mod:
+    tabprefix: "&a&lmod &f"
+    tagprefix: "&a&lM &f"
+  sponsor:
+    tabprefix: "&9&lsponsor &f"
+    tagprefix: "&9&lS &f"
+  default:
+    tabprefix: "&7"
+    tagprefix: "&7"
+  
+  # Owner:
+  #   tabprefix: "&0&l[&a&lOwner&0&l] &a"
+  #   tagprefix: "&2&lOwner &a"
+  # Admin:
+  #   tabprefix: "&0&l[&4&lAdmin&0&l] &1"
+  #   tagprefix: "%animation:admin_prefix%"
+  # Player:
+  #   tabprefix: "&0&l[&7&lPlayer&0&l] &3"
+  #   tagprefix: "&2&lPlayer &3"
+  # example_group:
+  #   header:
+  #     - "This is an example of per-group header/footer"
+  #   footer:
+  #     - "applied to a group"
       
   #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
   _OTHER_:

@@ -11,7 +11,7 @@ dist/*.json
 
 # Plugins
 /dist/plugins/WorldGuard/cache
-/dist/plugins/WorldEdit/.archive-unpack/9b94df90
+/dist/plugins/WorldEdit/.archive-unpack
 /dist/plugins/WorldEdit/sessions
 /dist/plugins/SkinsRestorer/Players
 /dist/plugins/SkinsRestorer/Skins
@@ -20,5 +20,9 @@ dist/*.json
 /dist/plugins/AuthMe/authme.log
 /dist/plugins/AuthMe/authme.db
 /dist/plugins/Essentials/userdata
+/dist/plugins/Essentials/trade.log
 /dist/plugins/Multiverse-Inventories/players
 /dist/plugins/ServerListPlus/PlayerCache.json
+/dist/plugins/TimeIsMoney/data.dat
+/dist/plugins/TimeIsMoney/data
+/dist/plugins/TAB/errors.log
