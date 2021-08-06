@@ -8,6 +8,7 @@ dist/.console_history
 
 # User data
 dist/*.json
+passwd.txt
 
 # Plugins
 /dist/plugins/WorldGuard/cache
