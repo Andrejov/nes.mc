@@ -1,0 +1,1 @@
+screen -S mc-nes.mc -d -m sh server.sh
