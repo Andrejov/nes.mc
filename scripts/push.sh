@@ -1,4 +1,4 @@
 git status
 git add .
-git commit -m "Server direct commit"
+git commit -m "Periodical server direct commit"
 git push
