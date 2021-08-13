@@ -22,8 +22,11 @@ passwd.txt
 /dist/plugins/AuthMe/authme.db
 /dist/plugins/Essentials/userdata
 /dist/plugins/Essentials/trade.log
+/dist/plugins/Essentials/usermap.csv
 /dist/plugins/Multiverse-Inventories/players
 /dist/plugins/ServerListPlus/PlayerCache.json
 /dist/plugins/TimeIsMoney/data.dat
 /dist/plugins/TimeIsMoney/data
 /dist/plugins/TAB/errors.log
+/dist/plugins/ChatControl/logs
+/dist/plugins/update
