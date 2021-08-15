@@ -12,7 +12,7 @@
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
-    delay: 10
+    delay: 36000
     items:
       - stonesword 1
       - stoneshovel 1
