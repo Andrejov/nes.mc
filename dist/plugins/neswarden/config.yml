@@ -1,3 +1,2 @@
 broadcast-prefix: '&7\...&9&lnes.&7.../ &f: '
-
-spawn-default: '@mvtp %player% %world%'
+alias-spawn: '@mvtp %player% %world%'

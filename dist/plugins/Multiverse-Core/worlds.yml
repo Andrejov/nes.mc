@@ -33,9 +33,9 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 48.0
-      y: 65.0
-      z: 192.0
+      x: 0.5
+      y: 70.0
+      z: 0.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
@@ -174,9 +174,9 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 16.0
+      x: 20.5
       y: 4.0
-      z: -80.0
+      z: -122.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
