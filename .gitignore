@@ -6,6 +6,9 @@ dist/server.jar
 dist/world*
 dist/.console_history
 
+# Server archives
+archive/*
+
 # User data
 dist/*.json
 passwd.txt
