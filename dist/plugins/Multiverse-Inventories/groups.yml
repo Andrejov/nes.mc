@@ -10,3 +10,10 @@ groups:
     - world_nether
     shares:
     - all
+  survival:
+    worlds:
+    - world
+    - world_the_end
+    - world_nether
+    shares:
+    - all
