@@ -10,11 +10,11 @@ type = "EMERALD_ORE"
 # Another way to refer to the protection stone
 # Can be used for /ps give and /ps get
 # Must be one word (no spaces)
-alias = "64"
+alias = "starter"
 
 # Description of the protection block type
 # Shows up in /ps get menu
-description = "64 block radius protection zone."
+description = "Startowy cuboid 128x128"
 
 # Whether or not to restrict obtaining of the protection stone to only /ps get and /ps give and custom crafting recipes.
 # Other ways to obtain this block (ex. mining) will not work as a protection stone.
@@ -26,11 +26,10 @@ restrict_obtaining = true
 # "blacklist" mode prevents this protect block from being used in the worlds in "worlds"
 # "whitelist" mode allows this protect block to only be used in the worlds in "worlds"
 # Can be overriden with protectionstones.admin permission (including OP)!
-#TODO
-world_list_type = "blacklist"
+
+world_list_type = "whitelist"
 worlds = [
-    "exampleworld1",
-    "exampleworld2"
+    "world"
 ]
 
 # Whether or not to actually restrict the protection stone from being placed when the world is restricted (in blacklist/whitelist)
@@ -72,10 +71,10 @@ allow_placing_in_wild = true
     flags = [
         "pvp deny",
         "tnt deny",
-        "greeting &lEntering &b&l%player%'s &f&lprotected area",
-        "farewell &lLeaving &b&l%player%'s &f&lprotected area",
-        "greeting-action &lEntering &b&l%player%'s &f&lprotected area",
-        "farewell-action &lLeaving &b&l%player%'s &f&lprotected area",
+        # "greeting &lEntering &b&l%player%'s &f&lprotected area",
+        # "farewell &lLeaving &b&l%player%'s &f&lprotected area",
+        "greeting-action &a&lWchodzisz na teren &2&l%player%&a&l.",
+        "farewell-action &c&lOpuszczasz teren &4&l%player%&c&l.",
         "creeper-explosion deny",
         "wither-damage deny",
         "ghast-fireball deny",
@@ -146,19 +145,23 @@ allow_placing_in_wild = true
     # Name given to protection block when obtained with /ps give or /ps get
     # Also affects custom crafted items (see custom_recipe)
     # Leave as '' for no name
-    display_name = "&a&m<---&r&b 64 Radius Protection Block &r&a&m--->"
+    display_name = "&a&m<---&r&b Cuboid 128x128 &r&a&m--->"
 
     # Lore given to protection block when obtained with /ps give or /ps get
     # Also affects custom crafted items (see custom_recipe)
     # Leave as [] for no lore
     lore = [
-        "&6(⌐■_■)ノ♪ Nobody's going to touch my stuff!",
+        "&f ",
+        "&fTen blok pozwala utworzyc",
+        "&fchroniony teren dla ciebie i",
+        "&ftwoich znajomych.",
+        "&fDowiedz sie wiecej na: &a&l/cuboid",
     ]
 
     # Add price when using /ps get
     # Must have compatible economy plugin (requires Vault, ie. Essentials)
     # Must be a decimal (ex. not 10, but 10.0)
-    price = 0.0
+    price = 50000.0
 
     # Whether or not to allow crafting this item using a custom recipe
     # Useful to allow crafting the item when restrict_obtaining is set to true
@@ -224,7 +227,7 @@ allow_placing_in_wild = true
     prevent_silk_touch = false
 
     # Set cost for when a protection block is placed (separate from /ps get cost)
-    cost_to_place = 0.0
+    cost_to_place = 100.0
 
     # Allow protect block item to be smelt in furnaces
     allow_smelt_item = false
@@ -247,11 +250,11 @@ allow_placing_in_wild = true
     # Option to teleport only if player stands still.
     # Can override with permission protectionstones.tp.bypasswait
     no_moving_when_tp_waiting = true
-    tp_waiting_seconds = 0
+    tp_waiting_seconds = 3
 
     # Whether or not to prevent obtaining this block through /ps get.
     # Ignored with protectionstones.admin
-    prevent_ps_get = false
+    prevent_ps_get = true
 
     # Whether or not to prevent this region type from showing up in /ps home, and allowing teleport.
     # Note: admins can still use /ps tp to this region type
