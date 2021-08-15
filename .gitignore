@@ -30,3 +30,6 @@ passwd.txt
 /dist/plugins/TAB/errors.log
 /dist/plugins/ChatControl/logs
 /dist/plugins/update
+/dist/plugins/Multiverse-Inventories/groups
+/dist/plugins/Multiverse-Inventories/worlds
+/dist/plugins/StayPut/database.db
