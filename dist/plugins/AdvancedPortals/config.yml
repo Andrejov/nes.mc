@@ -22,7 +22,7 @@ UseCustomPrefix: false
 CustomPrefix: '&a[&eAdvancedPortals&a]'
 CustomPrefixFail: '&c[&7AdvancedPortals&c]'
 BlockSpectatorMode: false
-PortalCooldown: 5
+PortalCooldown: 1
 ThrowbackAmount: 0.7
 DisableGatewayBeam: true
 CommandLevels: opcb
