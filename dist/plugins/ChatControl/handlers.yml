@@ -70,6 +70,10 @@
 # [!]  DO NOT UNCOMMENT THE LINES ABOVE - THEY ARE ONLY EXAMPLES OF ALL KEYS THE PLUGIN ACCEPTS [-]
 # -------------------------------------------------------------------------------------------------
 
+unknownhidden:
+  Execute_Commands:
+  - 'uc unknown-hidden {player}'
+
 advertisement:
   Bypass_With_Permission: "chatcontrol.bypass.ad"
   Ignored_In_Commands:

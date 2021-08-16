@@ -85,7 +85,8 @@ timings:
   history-length: 3600
   server-name: Unknown Server
 messages:
-  no-permission: '&7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.'
+  no-permission: '&7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
+    code: 0xf00de1)'
   kick:
     authentication-servers-down: ''
     connection-throttle: '&fWystapil blad ''&eConnection throttled! Please wait before

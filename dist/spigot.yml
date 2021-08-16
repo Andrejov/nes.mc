@@ -47,7 +47,8 @@ commands:
 messages:
   restart: '&ePoczekaj chwile - serwer jest aktualnie restartowany'
   whitelist: '&9&lnes. &f- Jeszcze nie wszystko jest gotowe'
-  unknown-command: '&7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.'
+  unknown-command: '&7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
+    code: 0xf00a21)'
   server-full: '&eJakims cudem serwer jest pelny'
   outdated-client: '&eZaktualizuj Minecrafta w swoim launcherze do 1.17.1'
   outdated-server: '&eZmien wersje Minecrafta w swoim launcherze do 1.17.1'

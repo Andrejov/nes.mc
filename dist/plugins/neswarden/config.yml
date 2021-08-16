@@ -1,5 +1,17 @@
 broadcast-prefix: '&7\...&9&lnes.&7.../ &f: '
 alias-spawn: '@mvtp %player% %world%'
+uc-unknown-basic:
+- '@npmsg %1% &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
+  code: 0xff%r%%r%%c%%r%)'
+uc-unknown-disabled:
+- '@npmsg %1% &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
+  code: 0xff%r%%c%%r%%r%)'
+uc-unknown-hidden:
+- '@npmsg %1% &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
+  code: 0xff%c%%r%%r%%r%)'
+uc-unknown:
+- uc unknown-%1% %player%
+disable-response: '@uc unknown-disabled %player%'
 disable-command:
 - /br
 - /brush
@@ -8,7 +20,7 @@ disable-command:
 - /sel
 - /toggleplace
 - 2fa
-- ';'
+- ;
 - '?'
 - about
 - advancedportals
@@ -169,13 +181,13 @@ disable-command:
 - region
 - regions
 - rg
-- 's++'
+- s++
 - serverlist
-- 'serverlist+'
+- serverlist+
 - serverlistplus
 - serverping
-- 'serverping+'
-- 'sl+'
+- serverping+
+- sl+
 - slp
 - slus
 - spp
@@ -195,4 +207,3 @@ disable-command:
 - version
 - we
 - worldedit
-disable-response: 'nonexistent cmd heheheh'

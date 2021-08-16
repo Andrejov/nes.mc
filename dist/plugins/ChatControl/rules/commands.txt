@@ -43,21 +43,24 @@ then log
 ## Basic commands
 match ^/(\?|op |op\b|deop |deop\b)
 ignore perm nes.admin
-then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
+# then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &7&o(Error code: 0x000000)
 then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
+handle as unknownhidden
 
 ## Basic prefixes
 match ^/(bukkit:|spigot:|minecraft:|paper:)
-then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
+# then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &7&o(Error code: 0x000000)
 then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
+handle as unknownhidden
 
 ## Some other weird shit prefixes
 match ^/(.*\:.*)
-then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
+# then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &7&o(Error code: 0x000000)
 then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
+handle as unknownhidden

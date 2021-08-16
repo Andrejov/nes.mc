@@ -26,4 +26,7 @@
 # Rewrite message from Bukkit or Essentials.
 match ^I'm sorry, but you do not have permission to perform this.*|^You do not have access to that command.
 dont verbose
-then rewrite &cojojojoj no niestety no nie tym razem :3
+# then rewrite &cojojojoj no niestety no nie tym razem :3
+# then deny
+# handle as unknownhidden
+then rewrite &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error code: 0xfd0001)
