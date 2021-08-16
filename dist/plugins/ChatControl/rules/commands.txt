@@ -39,7 +39,13 @@ then notify tgc.root &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
 
-match ^/(\? |op |deop |\?\b|op\b|deop\b)
+match ^/(\?|op |op\b|deop |deop\b)
+then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
+then notify tgc.root &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
+then deny
+then log
+
+match ^/(bukkit:|spigot:|minecraft:|paper:)
 then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
 then notify tgc.root &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
