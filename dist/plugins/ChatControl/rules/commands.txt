@@ -33,20 +33,31 @@
 # then warn &cThis command only accessible in survival mode!
 # then deny
 
+## Plugins
 match ^/(pl |plugins |pl\b|plugins\b)
 then warn &fPlugins (1): &anot_ur_fkin_business
-then notify tgc.root &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
+then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
 
+## Basic commands
 match ^/(\?|op |op\b|deop |deop\b)
+ignore perm nes.admin
 then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
-then notify tgc.root &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
+then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
 
+## Basic prefixes
 match ^/(bukkit:|spigot:|minecraft:|paper:)
 then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
-then notify tgc.root &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
+then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
+then deny
+then log
+
+## Some other weird shit prefixes
+match ^/(.*\:.*)
+then warn &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc.
+then notify nes.admin &c[CC] &e{player}&7 probowal uzyc komendy: &f{message}
 then deny
 then log
