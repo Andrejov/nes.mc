@@ -32,3 +32,17 @@ hub_survival:
   portalArgs:
     command:
       '1': '#mvtp @player world'
+hub_creative:
+  world: world_hub
+  triggerblock: NETHER_PORTAL
+  pos1:
+    X: 9
+    Y: 8
+    Z: -121
+  pos2:
+    X: 9
+    Y: 4
+    Z: -125
+  portalArgs:
+    command:
+      '1': '#and npmsg @player &f&l... &c??? &f&l...&&mvtp @player world_hub'

@@ -2,3 +2,7 @@ hub_survival:
   location: world_hub, 20.500, 6.000, -112.500
   lines:
   - '&a&lSurvival'
+hub_creative:
+  location: world_hub, 10.500, 6.000, -122.500
+  lines:
+  - '&f&k&l--- &c&l??? &f&k&l---'
