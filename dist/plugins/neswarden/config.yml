@@ -44,12 +44,12 @@ disable-command:
 - epayconfirmon
 - epayconfirmtoggle
 - epayon
+- epayoff
 - epaytoggle
 - epm
 - er
 - ereply
 - esethome
-# - espawn
 - etell
 - etpa
 - etpaccept
