@@ -2,7 +2,7 @@
 # Documentation: https://filoghost.me/docs/chest-commands
 
 default-color:
-  name: '&f'
+  name: '&9'
   lore: '&7'
 anti-click-spam-delay: 200
 update-notifications: true

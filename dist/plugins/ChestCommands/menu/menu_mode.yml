@@ -1,0 +1,71 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&9Wybierz tryb'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 5
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+back:
+  MATERIAL: arrow
+  POSITION-X: 5
+  POSITION-Y: 4
+  NAME: '&9Powrot'
+  LORE:
+    - '&f '
+    - '&f Komenda: &a&l/menu'
+  ACTIONS:
+    - 'menu'
+
+hub:
+  MATERIAL: nether_star
+  POSITION-X: 5
+  POSITION-Y: 2
+  NAME: '&9Teleport: &3Hub'
+  LORE:
+    - '&f '
+    - '&f Komenda: &a&l/hub'
+  ACTIONS:
+    - 'hub'
+
+survival:
+  MATERIAL: grass_block
+  POSITION-X: 2
+  POSITION-Y: 2
+  NAME: '&9Teleport: &3Survival'
+  LORE:
+    - '&f '
+    - '&f Komenda: &a&l/survival'
+  ACTIONS:
+    - 'survival'
+
+newmode:
+  MATERIAL: bedrock
+  POSITION-X: 8
+  POSITION-Y: 2
+  NAME: '&9Teleport: &3k-------'
+  LORE:
+    - '&f '
+    - '&f Komenda: &a&l/&k------'
+  ACTIONS:
+    - 'console: npmsg {player} &7there is nothing here... &8yet'

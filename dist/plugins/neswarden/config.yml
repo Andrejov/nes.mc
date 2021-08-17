@@ -4,6 +4,11 @@ action-joinw-world_hub: '@npmsg %player% &eWitamy na &9&lnes.&e!'
 alias-spawn: '@to %player% 2000 0 @mvtp %player% %world%'
 alias-spawn-world_hub: '@and mvtp %player% %world% && npmsg %player% &edaleka podroz,
   co?'
+alias-menu-world: '@uc open-menu-survival %player%'
+alias-menu-world_nether: '@uc open-menu-survival %player%'
+alias-menu-world_the_end: '@uc open-menu-survival %player%'
+alias-menu-world_hub: '@uc open-menu-hub %player%'
+alias-mode: '@uc open-menu-mode %player%'
 uc-starter-survival:
 - cmdi give %1% coupon-starter
 - npmsg %1% &aOtrzymales startowy kupon!
@@ -12,6 +17,14 @@ uc-hub:
 - '@to %player% 2000 0 @mvtp %player% world_hub'
 uc-survival:
 - '@to %player% 2000 0 @mvtp %player% world'
+uc-open-menu-mode:
+- cc open menu_mode.yml %1%
+uc-open-menu-survival:
+- cc open menu_survival.yml %1%
+uc-open-menu-hub:
+- cc open menu_hub.yml %1%
+uc-ah-exit:
+- '@sudo %1% menu'
 uc-discord:
 - '@npmsg %player% &7Link do naszego serwera discord: &9discord.gg/t3pMdks4'
 uc-unknown-basic:

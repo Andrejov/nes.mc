@@ -9,7 +9,7 @@ updateTicks: 20
 auction:
   listingPrice: 0.0
   listingRate: 0.0
-  listingCooldown: 0d0h0m0s
+  listingCooldown: 0d0h0m1s
   listingDuration: 7d0h0m
   expiredDuration: 14d0h0m
   unclaimedDuration: 90d0h0m
@@ -39,14 +39,15 @@ auction:
   showRepairCost: true
 announce:
   chat:
-    listings: false
-    purchases: false
+    listings: true
+    purchases: true
   action_bar:
     listings: false
     purchases: false
   discord:
     listings: false
     purchases: false
+#TODO: Actual cuboid names
 restricted_items:
   '0':
     item: minecraft:bedrock
@@ -56,29 +57,12 @@ restricted_items:
     item: minecraft:command_block
   '3':
     item: minecraft:structure_block
-  example:
-    name: \u00a7cVorpal Sword
-    item: minecraft:diamond_sword
-    lore:
-    - Special Item
-    - Does not list in AuctionHouse
-    enchantments:
-    - ench: minecraft:sharpness
-      level: 10
-    - ench: minecraft:unbreaking
-      level: 3
-    - ench: minecraft:looting
-      level: 3
-    - ench: minecraft:fire_aspect
-      level: 2
-    unbreakable: true
-    custom_model_data: 1
-  mcmmo:
-    lore:
-    - mcMMO Ability Tool
-  mcmmo_ability:
-    persistent_data:
-      mcmmo:super_ability_boosted: 0
+  cuboid:
+    name: "\u00a7a\u00a7lKupon na cuboid (\u00a7c-100%\u00a7a)"
+  starter:
+    name: "\u00a7a\u00a7lKupon startowy (\u00a7fszybki start na serwerze\u00a7a)"
+  cuboidblock:
+    name: "\u00a7a\u00a7m<---\u00a7r\u00a7b Cuboid 64x64 \u00a7r\u00a7a\u00a7m--->"
 sounds:
   click: ui.button.click
   fail: entity.villager.no
@@ -104,7 +88,7 @@ triggers:
   block_name: Auction House
   entity_name: Auction House
 commands:
-  exit: msg %player% Exiting AuctionHouse
+  exit: uc ah-exit %player%
 log:
   listed: true
   sold: true
@@ -114,5 +98,5 @@ log:
   purged: true
 anticheat:
   spam_check: false
-disabled-worlds: []
+disabled-worlds: ['world_hub']
 configVersion: 33

@@ -53,9 +53,9 @@ messages:
   outdated-client: '&eZaktualizuj Minecrafta w swoim launcherze do 1.17.1'
   outdated-server: '&eZmien wersje Minecrafta w swoim launcherze do 1.17.1'
 advancements:
-  disable-saving: false
+  disable-saving: true
   disabled:
-  - minecraft:story/disabled
+  - '*'
 stats:
   disable-saving: false
   forced-stats: {}

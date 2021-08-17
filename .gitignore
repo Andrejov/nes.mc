@@ -40,3 +40,4 @@ passwd.txt
 /dist/plugins/AuctionHouse/auctions.db
 /dist/plugins/AuctionHouse/logs
 /dist/plugins/ChestCommands/.upgrades-done
+/dist/plugins/AuctionHouse/auctions.db.backup

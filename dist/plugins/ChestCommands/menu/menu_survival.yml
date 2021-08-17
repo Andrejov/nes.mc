@@ -1,0 +1,47 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&9Menu survival'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+#123456789
+#  x   x  
+
+back:
+  MATERIAL: arrow
+  POSITION-X: 7
+  POSITION-Y: 2
+  NAME: '&9Wyjscie'
+
+modes:
+  MATERIAL: nether_star
+  POSITION-X: 3
+  POSITION-Y: 2
+  NAME: '&9Wybor trybu'
+  LORE:
+    - '&f '
+    - '&f Komenda: &a&l/mode'
+  ACTIONS:
+    - 'open: menu_mode.yml'
