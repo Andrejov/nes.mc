@@ -12,6 +12,8 @@ uc-hub:
 - '@to %player% 2000 0 @mvtp %player% world_hub'
 uc-survival:
 - '@to %player% 2000 0 @mvtp %player% world'
+uc-discord:
+- '@npmsg %player% &7Link do naszego serwera discord: &9discord.gg/t3pMdks4'
 uc-unknown-basic:
 - '@npmsg %1% &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
   code: 0xff%r%%r%%c%%r%)'

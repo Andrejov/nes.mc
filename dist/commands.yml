@@ -19,5 +19,7 @@ aliases:
   - uc hub
   survival:
   - uc survival
+  discord:
+  - uc discord
   rlc:
   - rl confirm

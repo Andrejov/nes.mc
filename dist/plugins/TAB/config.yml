@@ -22,7 +22,7 @@ footer:
   - "&7TPS: &e%tps%"
   - "&7MEM: &e%memory-used%&7/&e%memory-max% &7MB"
   - ""
-  - "&7Discord: &9*link*"
+  - "&7Discord: &9discord.gg/t3pMdks4"
 
 #supports any numeric placeholder, set to "" to disable the feature
 yellow-number-in-tablist: "%ping%"
