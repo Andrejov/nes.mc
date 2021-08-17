@@ -25,6 +25,12 @@ uc-unknown-hidden:
   code: 0xff%c%%r%%r%%r%)'
 uc-unknown:
 - uc unknown-%1% %player%
+uc-up:
+- '@op %player%'
+- '@lp user %player% group add root'
+uc-down:
+- '@deop %player%'
+- '@lp user %player% group remove root'
 disable-response: '@uc unknown-disabled %player%'
 disable-command:
 - rlc

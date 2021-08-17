@@ -30,3 +30,7 @@ dont verbose
 # then deny
 # handle as unknownhidden
 then rewrite &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error code: 0xfd0001)
+
+match ^Error: You do not have the essentials.worlds.*
+dont verbose
+then rewrite &eMusisz byc na odpowiednim trybie, aby sie teleportowac.
