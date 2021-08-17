@@ -14,7 +14,13 @@ regions:
         members: {}
         flags:
             give-effects: [NIGHT_VISION 2 false]
+            natural-health-regen: allow
+            feed-delay: 0
+            feed-amount: 5
             passthrough: deny
+            heal-amount: 5
+            heal-delay: 0
+            natural-hunger-drain: deny
         owners: {}
         type: global
         priority: 0

@@ -37,7 +37,6 @@ disable-command:
 - to
 - joins
 - ncc
-- uc
 - /br
 - /brush
 - /desel
