@@ -11,7 +11,7 @@ uc-starter-survival:
 uc-hub:
 - '@to %player% 2000 0 @mvtp %player% world_hub'
 uc-survival:
-- '@to %player% 2000 0 @mvtp %player% world_survival'
+- '@to %player% 2000 0 @mvtp %player% world'
 uc-unknown-basic:
 - '@npmsg %1% &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
   code: 0xff%r%%r%%c%%r%)'

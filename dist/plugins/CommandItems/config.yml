@@ -35,7 +35,7 @@ items:
       - { action: COMMAND, by: CONSOLE, command: "egive {player} oak_log 64" }
       - { action: COMMAND, by: CONSOLE, command: "egive {player} cobblestone 64" }
       - { action: COMMAND, by: CONSOLE, command: "egive {player} coal 8" }
-      - { action: COMMAND, by: CONSOLE, command: "cmdi give {player} coupon-cuboid-100 5" }
+      - { action: COMMAND, by: CONSOLE, command: "cmdi give {player} coupon-cuboid-100" }
   coupon-dollar-100:
     item:
       type: PAPER
