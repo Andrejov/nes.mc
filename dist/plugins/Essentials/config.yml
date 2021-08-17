@@ -666,7 +666,7 @@ update-bed-at-daytime: true
 # Set to true to enable per-world permissions for using homes to teleport between worlds.
 # This applies to the /home command only.
 # Give someone permission to teleport to a world with essentials.worlds.<worldname>
-world-home-permissions: false
+world-home-permissions: true
 
 # Allow players to have multiple homes.
 # Players need essentials.sethome.multiple before they can have more than 1 home.
@@ -695,7 +695,7 @@ compass-towards-home-perm: false
 spawn-if-no-home: true
 
 # Should players be asked to provide confirmation for homes which they attempt to overwrite?
-confirm-home-overwrite: false
+confirm-home-overwrite: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -1056,7 +1056,7 @@ respawn-at-home: false
 respawn-at-anchor: false
 
 # Teleport all joining players to the spawnpoint
-spawn-on-join: false
+spawn-on-join: true
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
 # The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
