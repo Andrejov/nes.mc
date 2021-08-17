@@ -2,11 +2,12 @@ broadcast-prefix: '&7\...&9&lnes.&7.../ &f: &7'
 action-joinw-world: '@uc starter-survival %player%'
 action-joinw-world_hub: '@npmsg %player% &eWitamy na &9&lnes.&e!'
 alias-spawn: '@to %player% 2000 0 @mvtp %player% %world%'
-alias-spawn-world_hub: '@and mvtp %player% %world% && npmsg %player% &edaleka podroz, co?'
+alias-spawn-world_hub: '@and mvtp %player% %world% && npmsg %player% &edaleka podroz,
+  co?'
 uc-starter-survival:
-- 'cmdi give %1% coupon-starter'
-- 'npmsg %1% &aOtrzymales startowy kupon!'
-- 'npmsg %1% &7&o Przejrzyj swoj ekwipunek, aby go wykorzystac.'
+- cmdi give %1% coupon-starter
+- npmsg %1% &aOtrzymales startowy kupon!
+- npmsg %1% &7&o Przejrzyj swoj ekwipunek, aby go wykorzystac.
 uc-hub:
 - '@to %player% 2000 0 @mvtp %player% world_hub'
 uc-survival:
@@ -24,6 +25,7 @@ uc-unknown:
 - uc unknown-%1% %player%
 disable-response: '@uc unknown-disabled %player%'
 disable-command:
+- rlc
 - to
 - joins
 - ncc
