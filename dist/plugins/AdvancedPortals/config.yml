@@ -19,8 +19,8 @@ ShowSelectionShowDuration: 10
 WarpMessageDisplay: 2
 UseWarpPrefix: true
 UseCustomPrefix: false
-CustomPrefix: '&a[&eAdvancedPortals&a]'
-CustomPrefixFail: '&c[&7AdvancedPortals&c]'
+CustomPrefix: '&7\...&9&lnes.&7.../ &f:&7'
+CustomPrefixFail: '&7\...&9&lnes.&7.../ &f:&e'
 BlockSpectatorMode: false
 PortalCooldown: 1
 ThrowbackAmount: 0.7

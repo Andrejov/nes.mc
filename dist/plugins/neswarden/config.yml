@@ -1,7 +1,10 @@
-broadcast-prefix: '&7\...&9&lnes.&7.../ &f: '
+broadcast-prefix: '&7\...&9&lnes.&7.../ &f: &7'
 alias-spawn: '@mvtp %player% %world%'
-action-joinw-world: '@npmsg %player% &e&oumm normalnie to dostalbys teraz itemki i darmowy cuboid ale to jeszcze nie dziala takze ripxD'
+action-joinw-world: '@npmsg %player% &e&oumm normalnie to dostalbys teraz itemki i
+  darmowy cuboid ale to jeszcze nie dziala takze ripxD'
 action-joinw-world_hub: '@npmsg %player% &eWitamy na &9&lnes.&e!'
+uc-hub:
+- '@to %player% 1000 0 @mvtp %player% world_hub'
 uc-unknown-basic:
 - '@npmsg %1% &7Nieznana komenda; uzyj &e&l/help&7, aby uzyskac pomoc. &8&o(Error
   code: 0xff%r%%r%%c%%r%)'
