@@ -37,3 +37,6 @@ passwd.txt
 /dist/plugins/Multiverse-Inventories/worlds
 /dist/plugins/StayPut/database.db
 /dist/plugins/neswarden/joins.yml
+/dist/plugins/AuctionHouse/auctions.db
+/dist/plugins/AuctionHouse/logs
+/dist/plugins/ChestCommands/.upgrades-done
