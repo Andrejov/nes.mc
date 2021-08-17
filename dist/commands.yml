@@ -17,3 +17,5 @@ aliases:
   - version $1-
   hub:
   - uc hub
+  survival:
+  - uc survival
