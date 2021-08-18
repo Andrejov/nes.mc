@@ -21,6 +21,8 @@ footer:
   - "&7Ping: &e%ping% &7ms"
   - "&7TPS: &e%tps%"
   - "&7MEM: &e%memory-used%&7/&e%memory-max% &7MB"
+  - "&7Ent/chunk: &e%server_total_entities%&7/&e%server_total_chunks%"
+  - "&7Uptime: &e%server_uptime%"
   - ""
   - "&7Discord: &9discord.gg/t3pMdks4"
 

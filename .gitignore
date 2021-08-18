@@ -2,6 +2,7 @@
 dist/cache
 dist/logs
 dist/server.jar
+dist/hs_err_pid*
 
 dist/world*
 dist/.console_history
@@ -46,3 +47,4 @@ passwd.txt
 /dist/plugins/ChestCommands/.upgrades-done
 /dist/plugins/LogBlock/import
 /dist/plugins/LogBlock/log
+/dist/plugins/TAB/PlaceholderAPI.errors.log
