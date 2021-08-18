@@ -11,6 +11,10 @@ archive/*
 
 # User data
 dist/*.json
+
+# Confidential
+/dist/plugins/LogBlock/config.yml
+/dist/plugins/AuthMe/authme.db
 passwd.txt
 
 # Plugins
@@ -22,7 +26,6 @@ passwd.txt
 /dist/plugins/ProtocolLib/lastupdate
 /dist/plugins/LuckPerms/libs
 /dist/plugins/AuthMe/authme.log
-/dist/plugins/AuthMe/authme.db
 /dist/plugins/Essentials/userdata
 /dist/plugins/Essentials/trade.log
 /dist/plugins/Essentials/usermap.csv
@@ -39,5 +42,7 @@ passwd.txt
 /dist/plugins/neswarden/joins.yml
 /dist/plugins/AuctionHouse/auctions.db
 /dist/plugins/AuctionHouse/logs
-/dist/plugins/ChestCommands/.upgrades-done
 /dist/plugins/AuctionHouse/auctions.db.backup
+/dist/plugins/ChestCommands/.upgrades-done
+/dist/plugins/LogBlock/import
+/dist/plugins/LogBlock/log
