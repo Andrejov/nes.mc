@@ -18,6 +18,25 @@ dist/*.json
 /dist/plugins/AuthMe/authme.db
 passwd.txt
 
+# Dynmap
+/dist/plugins/dynmap/web
+/dist/plugins/dynmap/texturepacks
+/dist/plugins/dynmap/templates
+/dist/plugins/dynmap/renderdata
+/dist/plugins/dynmap/markers
+/dist/plugins/dynmap/export
+/dist/plugins/dynmap/colorschemes
+/dist/plugins/dynmap/world.pending
+/dist/plugins/dynmap/ids-by-ip.txt
+/dist/plugins/dynmap/custom-perspectives.txt
+/dist/plugins/dynmap/worlds.txt
+/dist/plugins/dynmap/shaders.txt
+/dist/plugins/dynmap/perspectives.txt
+/dist/plugins/dynmap/markers.yml
+/dist/plugins/dynmap/lightings.txt
+/dist/plugins/dynmap/custom-shaders.txt
+/dist/plugins/dynmap/custom-lightings.txt
+
 # Plugins
 /dist/plugins/WorldGuard/cache
 /dist/plugins/WorldEdit/.archive-unpack
