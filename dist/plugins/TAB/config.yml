@@ -24,7 +24,7 @@ footer:
   - "&7Ent/chunk: &e%server_total_entities%&7/&e%server_total_chunks%"
   - "&7Uptime: &e%server_uptime%"
   - ""
-  - "&7Discord: &9discord.gg/t3pMdks4"
+  - "&7Discord: &9discord.gg/TCMN6ytXPT"
 
 #supports any numeric placeholder, set to "" to disable the feature
 yellow-number-in-tablist: "%ping%"

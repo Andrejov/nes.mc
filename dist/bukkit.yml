@@ -22,7 +22,7 @@ settings:
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: §cSerwer zostal wylaczony, ale prawdopodobnie jest to spowodowane
-    bledem. Zobacz Discorda, aby uzyskac pomoc. §9discord.gg/t3pMdks4
+    bledem. Zobacz Discorda, aby uzyskac pomoc. §9discord.gg/TCMN6ytXPT
   minimum-api: none
 spawn-limits:
   monsters: 70
